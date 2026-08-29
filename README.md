@@ -3,7 +3,7 @@
 A SQL and Power BI portfolio project built on real BLS JOLTS turnover data, framed around a fictional staffing company's decision to expand into one vertical.
 
 At a glance
-	
+--------------------	
 Data source	BLS JOLTS (Job Openings and Labor Turnover Survey), national, seasonally adjusted
 Coverage	Jan 2015 to Dec 2024, 6 industries x 5 measures, 3,600 rows, 0 duplicate keys
 Verticals compared	Government, Manufacturing, Professional and business services, Leisure and hospitality
