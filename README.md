@@ -26,15 +26,13 @@ Eight questions, split across three tiers (descriptive, diagnostic, causal), ans
 
 Repo structure
 --------------------
-File	What it is
-
 Jolts.sql	All SQL views, Q1 through Q8, plus the data validation query
-Q8_corrected.sql	Corrected Q8 query (first differences, not levels); see the methodology note below
 DATA_NOTES.md	Data validation: nesting rules, reconciliation, exclusion windows, tie-breaks, coverage checks
 metric_dictionary.md	One row per metric: formula, denominator convention, window, edge cases
 FINDINGS.md	One section per question: the question, the decision it unlocks, results, findings, limitations
-DASHBOARD.md	Documents the Power BI dashboard (3 pages, one per stakeholder decision)
-recommendation_memo.md	One-page memo: decision, recommendation, supporting findings, what would change it
+DASHBOARD.md:	Documents the Power BI dashboard (3 pages, one per stakeholder decision)
+DASHBOARD.pdf: Data visualization for 3 stakeholders' questions
+Recommendation_memo.md	One-page memo: decision, recommendation, supporting findings, what would change it
 
 Headline findings
 -----------------------------------------
@@ -45,11 +43,11 @@ The four verticals' turnover moves largely independently month to month, so conc
 Full findings, including result tables and method notes: FINDINGS.md.
 
 A methodology note, left in on purpose
+-------------------------------------------
 
 While preparing this project, a correlation query (Q8) turned out to be computed on raw monthly levels instead of month-over-month first differences, the same trap the brief calls out explicitly for a different question (Q7). Levels share a long-run trend, so a correlation on levels mostly measures that shared trend, not whether the two series actually move together month to month. Recomputing it correctly changed the finding materially, from a strong, strengthening relationship to a weak one. Both versions are documented side by side in FINDINGS.md (Q8), including how the error was caught, rather than quietly replaced. The Power BI dashboard still shows the uncorrected version in one appendix visual; that gap is noted in DASHBOARD.md.
 
-Reproducing this
-Load the raw JOLTS pull into a jolts_turnover table (columns: series_id, industry, industry_code, measure, measure_code, year, month, date, value, seasonally_adjusted).
+Reproducing this Load the raw JOLTS pull into a jolts_turnover table (columns: series_id, industry, industry_code, measure, measure_code, year, month, date, value, seasonally_adjusted).
 Run the validation query at the top of Jolts.sql first (duplicate_keys should be 0, series_count should be 30).
 Run the rest of Jolts.sql top to bottom.
 Connect Power BI to the same database for the dashboard.
