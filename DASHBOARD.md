@@ -10,8 +10,6 @@ The dashboard is organized as three pages, one per stakeholder decision, rather 
 
 Answers whether the $4.2M hospitality desk expansion's core claim (highest churn means largest replacement market) holds up.
 
-\[Screenshot placeholder\]
-
 Suggested contents, drawing on Q1 and Q6:
 
 - Quit rate by vertical, trailing 24-month median with IQR shown (Q1)  
@@ -24,8 +22,6 @@ Filters: vertical, date range.
 
 Answers whether the $1.8M/year retention bonus program, funded on a 2022 Great Resignation premise, should be renewed, resized, or ended.
 
-\[Screenshot placeholder\]
-
 Suggested contents, drawing on Q2 and Q4:
 
 - Voluntary vs. involuntary vs. residual separation share by vertical (Q2)  
@@ -37,8 +33,6 @@ Filters: vertical, date range.
 ## Page 3: Downside case and planning inputs (Priya Nandakumar)
 
 Answers how much concentration risk the hospitality expansion carries and what the downside looks like for the 2027 plan.
-
-\[Screenshot placeholder\]
 
 Suggested contents, drawing on Q3, Q5, and Q7:
 
