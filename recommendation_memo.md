@@ -1,12 +1,14 @@
 # Recommendation memo
 
-**To:** Marcus Rhee, SVP Sales & Client Delivery; Dana Whitfield, Chief People Officer **From:** \[your name\], Senior People Analytics Analyst **Date:** \[fill in\] **Re:** Hospitality desk expansion proposal and retention bonus program renewal
+**To:** Marcus Rhee, SVP Sales & Client Delivery; Dana Whitfield, Chief People Officer
+ **From:** Anton, Senior People Analytics Analyst 
+
 
 ## Decisions requested
 
 1. Does the hospitality desk expansion ($4.2M, 25 additional recruiters, three branch offices) proceed as proposed, ahead of the Q3 investment committee meeting?  
 2. Should the $1.8M/year retention bonus program, launched in 2022, be renewed, resized, or ended at its upcoming renewal?
-
+3. Priya Nandakumar's planning and risk questions are addressed within findings 2 and 3 below rather than as a separate decision, since they inform both calls above rather than requiring their own approval.
 ## Recommendation
 
 Return the hospitality proposal for revision rather than approve it as written. Its core claim, that hospitality's high churn makes it the largest replacement market, does not survive the data. Resize the retention program rather than renew it at its current level; the Great Resignation premise it was funded on has expired.
